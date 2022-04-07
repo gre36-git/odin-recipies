@@ -44,7 +44,6 @@ div {
     font-size: 22px;
 }  
 
-
 /* general page styles */
 
 .recipiePageTitle {
@@ -52,16 +51,20 @@ div {
     color: black;
     font-size: 40px;
 }
-.ingredientsList {
-    color: black;
-    font-size: 23;
-    font-weight: bold;
-    
-}
+
+.ingredientsList,
 .directionsList {
     color: black;
     font-size: 23;
     font-weight: bold;
+}
+
+/* populate for unique attributes*/
+.ingredientsList {
+    
+}
+
+.directionsList {
     
 }
 .nutritionInfo {
