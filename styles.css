@@ -74,6 +74,14 @@ div {
 .listHeader {
     font-size:larger
 }
+/* images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 
 /* lasagna page style ----------------------------------------------------*/
@@ -81,7 +89,6 @@ div {
 .lasagnaColor {
     background-color: #83cdc0;
 }
-
 /* hotcheetoeggs page style ----------------------------------------------------*/
 
 .hotCheetoEggColor {
