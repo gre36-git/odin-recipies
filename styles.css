@@ -38,7 +38,7 @@ div {
     background-color: rgb(0, 149, 255); 
     font-size: 22px;
 }       
-.HoTaquitoStyle button{
+.hotDoquitoStyle button{
     color: black; 
     background-color: rgba(255, 0, 170, 0.822); 
     font-size: 22px;
@@ -93,3 +93,11 @@ div {
 .hotDocketColor {
     background-color: rgb(0, 149, 255);
 }
+
+/* HotDoquito page style ----------------------------------------------------*/
+
+.hotDoquitoColor {
+    background-color: rgba(255, 0, 170, 0.822); 
+}
+
+
