@@ -11,12 +11,14 @@ div {
    
 /* HOMEPAGE Styles */
 
-.homepageTitle1 button{
-    color: black; 
-    background-color: #c14646; 
-    font-size: 40px;
+.homepageTitle {
+    background-color: #c14646;
     text-align: center;
+}
 
+.Title1{
+    color: black;
+    font-size: 40px;
 }
 
 .lasagnaStyle button{
@@ -44,20 +46,51 @@ div {
 
 /* lasagna page styles */
 
-.homepageTitle1 button{
-    color: black; 
-    background-color: #c14646; 
-    font-size: 40px;
-    text-align: center;
 
-}
-.lasagnaTitle1 h1{
-    color: black; 
-    background-color: #c14646; 
-    font-size: 40px;
+.lasagnaTitle {
     text-align: center;
-
+    background-color: #83cdc0;
+    font-size: 40px;
 }
+.Title1{
+    color: black;
+    font-size: 40px;
+}
+.ingredientList {
+    color: black;
+    font-size: 23;
+    font-weight: bold;
+    background-color: rgb(201, 164, 117);
+}
+.directionsList {
+    color: black;
+    font-size: 23;
+    font-weight: bold;
+    background-color: rgb(201, 164, 117);
+}
+.nutritionInfo {
+    color: black;
+    font-size: 23;
+    font-weight: bold;
+    background-color: rgb(201, 164, 117);
+    text-align: justify;
+}
+
+.listHeader {
+    font-size:larger
+}
+/*
+.lasagnaStyle{
+    color: black; 
+    background-color: #83cdc0; 
+    font-size: 22px;
+}
+*/
+/*
+color: black; 
+    font-size: 40px;
+*/
+
 /* backgrounds and unique attributes for specific pages
 #lasagnaLink {
     background-image: url("../lasagna.png");
