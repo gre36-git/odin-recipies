@@ -11,7 +11,7 @@ div {
    
 /* HOMEPAGE Styles */
 
-.homepageTitle1 {
+.homepageTitle1 button{
     color: black; 
     background-color: #c14646; 
     font-size: 40px;
@@ -44,21 +44,20 @@ div {
 
 /* lasagna page styles */
 
-body .lasagnaStyle h1{
+.homepageTitle1 button{
     color: black; 
-    background-color: #83cdc0; 
-    font-size: 22px;
-}
-::backdrop {
+    background-color: #c14646; 
+    font-size: 40px;
+    text-align: center;
 
 }
-width: 300px; height: auto;
+.lasagnaTitle1 h1{
+    color: black; 
+    background-color: #c14646; 
+    font-size: 40px;
+    text-align: center;
 
-
-
-
-
-
+}
 /* backgrounds and unique attributes for specific pages
 #lasagnaLink {
     background-image: url("../lasagna.png");
