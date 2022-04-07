@@ -44,63 +44,52 @@ div {
     font-size: 22px;
 }  
 
-/* lasagna page styles */
 
+/* general page styles */
 
-.lasagnaTitle {
+.recipiePageTitle {
     text-align: center;
-    background-color: #83cdc0;
-    font-size: 40px;
-}
-.Title1{
     color: black;
     font-size: 40px;
 }
-.ingredientList {
+.ingredientsList {
     color: black;
     font-size: 23;
     font-weight: bold;
-    background-color: rgb(201, 164, 117);
+    
 }
 .directionsList {
     color: black;
     font-size: 23;
     font-weight: bold;
-    background-color: rgb(201, 164, 117);
+    
 }
 .nutritionInfo {
     color: black;
     font-size: 23;
     font-weight: bold;
-    background-color: rgb(201, 164, 117);
     text-align: justify;
 }
 
 .listHeader {
     font-size:larger
 }
-/*
-.lasagnaStyle{
-    color: black; 
-    background-color: #83cdc0; 
-    font-size: 22px;
-}
-*/
-/*
-color: black; 
-    font-size: 40px;
-*/
 
-/* backgrounds and unique attributes for specific pages
-#lasagnaLink {
-    background-image: url("../lasagna.png");
-    <img src="../lasagna.png" alt="Tasty Lasagna">
 
+/* lasagna page style ----------------------------------------------------*/
+
+.lasagnaColor {
+    background-color: #83cdc0;
 }
 
-#hceggsLink {}
+/* hotcheetoeggs page style ----------------------------------------------------*/
 
-#hotdocLink{}
+.hotCheetoEggColor {
+    background-color: rgb(132, 255, 0);
+}
 
-#hotdoqLink{}
+/* hotdocket page style ----------------------------------------------------*/
 
+.hotDocketColor {
+    background-color: rgb(0, 149, 255);
+}
