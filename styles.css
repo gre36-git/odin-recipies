@@ -1,7 +1,19 @@
+/*
+* {
+    border: 2px solid red;
+  }
+*/
+
+
 html {
 background-image: url("skyscrape.jpg");
 }
+
 /*
+html {
+    background-image: url("cage_face.jpg");
+    }
+*/
 <button style="color: black; background-color: orange; font-size: 18px;">Inline Method</button>
 
 div {
@@ -11,14 +23,24 @@ div {
    
 /* HOMEPAGE Styles */
 
-.homepageTitle {
-    background-color: #c14646;
-    text-align: center;
+/* for the love of god don't delete id below somehow it affects .homepageColor */
+#homepageTitle {
+    color: black;
+    font-size: 60px;
 }
 
-.Title1{
+.homepageColor {
+    background-color: #c14646;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+
+
+.recipieLinkButton button {
     color: black;
-    font-size: 40px;
+    font-size: 22px;
 }
 
 .lasagnaStyle button{
@@ -46,6 +68,12 @@ div {
 
 /* general page styles */
 
+.returnToHomebutton{
+    color: black;
+    background-color: #c14646;
+    font-size: 22px;
+}
+
 .recipiePageTitle {
     text-align: center;
     color: black;
@@ -61,7 +89,6 @@ div {
 
 /* populate for unique attributes*/
 .ingredientsList {
-    
 }
 
 .directionsList {
