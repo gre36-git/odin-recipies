@@ -4,23 +4,38 @@
   }
 */
 
-
+/*
 html {
 background-image: url("skyscrape.jpg");
 }
-
+*/
 /*
 html {
     background-image: url("cage_face.jpg");
     }
 */
-<button style="color: black; background-color: orange; font-size: 18px;">Inline Method</button>
+/* PRETTY SURE THIS BUTTON CODE DOES NOTHING; DELETE LATER AFTER MAKING SURE SITE WORKS
+SANS THIS CHUNK
 
+<button style="color: black; 
+background-color: orange; 
+font-size: 18px;">Inline Method</button>
+*/
+/* DELETE THIS AFTER FURTHER SITE TESTING; UNNECESARRY CHUNK NOT IN USE
 div {
-    color: white; background-color: red; font-size: 32px; text-align: center; font-weight: bold;
+    color: white; 
+    background-color: red; 
+    font-size: 32px; 
+    text-align: center; 
+    font-weight: bold;
   }
 */
-   
+/* adjusts the spacing and layout of naviational buttons
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+*/
+
+
+
 /* HOMEPAGE Styles */
 
 /* for the love of god don't delete id below somehow it affects .homepageColor */
@@ -33,38 +48,52 @@ div {
     background-color: #c14646;
     text-align: center;
     font-size: 60px;
-
+    padding: 15px;
+    margin:2px;
+    border-width: 2px;
+    border-style: groove;
+    
 }
 
 
-
+/* DELETE AFTER FURTHER TESTING; VESTIGAL CODE
 .recipieLinkButton button {
     color: black;
     font-size: 22px;
+    
+}
+*/
+.recipieButtons button{
+    color: black;
+    font-size: 22px;
+    padding: 5px;
+    margin:2px;
+    border-width: 2px;
+    border-style: groove;
 }
 
-.lasagnaStyle button{
-    color: black; 
-    background-color: #83cdc0; 
-    font-size: 22px;
+.lasagnaStyle button{ 
+    background-color: #83cdc0;  
 }
   
 .hotCheetoStyle button{
-    color: black; 
     background-color: rgb(132, 255, 0); 
-    font-size: 22px;
 }
   
 .hotDocketStyle button{
-    color: black; 
     background-color: rgb(0, 149, 255); 
-    font-size: 22px;
 }       
 .hotDoquitoStyle button{
-    color: black; 
     background-color: rgba(255, 0, 170, 0.822); 
-    font-size: 22px;
 }  
+
+/* button effects, hover for interaction*/
+button:hover {
+    background-color: yellow;
+}
+
+
+
 
 /* general page styles */
 
@@ -72,12 +101,21 @@ div {
     color: black;
     background-color: #c14646;
     font-size: 22px;
+    padding: 5px;
+    margin:2px;
+    border-width: 2px;
+    border-style: groove;
 }
 
 .recipiePageTitle {
     text-align: center;
     color: black;
     font-size: 40px;
+    padding: 5px;
+    margin:2px;
+    border-width: 2px;
+    border-style: groove;
+    
 }
 
 .ingredientsList,
